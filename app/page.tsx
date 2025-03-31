@@ -157,7 +157,7 @@ export default function Home() {
                     {name}
                   </h1>
                   <p className="text-xl text-muted-foreground">
-                    Computer Science Graduate
+                    Computer Science And Engineering Graduate
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -180,10 +180,7 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center">
                 <Avatar className="h-64 w-64 border-4 border-background">
-                  <AvatarImage
-                    src="/placeholder.svg?height=256&width=256"
-                    alt={name}
-                  />
+                  <AvatarImage src="/avatar.JPG" alt={name} />
                   <AvatarFallback className="text-6xl">
                     {name.slice(0, 2)}
                   </AvatarFallback>
@@ -955,7 +952,7 @@ export default function Home() {
           </p>
           <div className="flex items-center gap-4">
             <Link
-              href="https://github.com"
+              href="https://github.com/Rohan-Shah-312003"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -965,7 +962,7 @@ export default function Home() {
               </Button>
             </Link>
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aokira31/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -974,7 +971,7 @@ export default function Home() {
                 <span className="sr-only">LinkedIn</span>
               </Button>
             </Link>
-            <Link href="mailto:rohanshah@example.com">
+            <Link href="mailto:rohan312003@gmail.com">
               <Button variant="ghost" size="icon">
                 <Mail className="h-4 w-4" />
                 <span className="sr-only">Email</span>
